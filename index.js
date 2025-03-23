@@ -12,7 +12,7 @@ const productRouter=require("./routes/productRoutes");
 
 //use cors
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://frontend-one-opal-16.vercel.app'], // Allow both local and deployed frontend
+    origin: ['http://localhost:5173', 'https://topclean123akash.vercel.app'], // Allow both local and deployed frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 }));
